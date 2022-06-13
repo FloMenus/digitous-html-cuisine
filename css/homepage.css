@@ -16,14 +16,18 @@ header {
 
 .article-main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.article-main h3 {
+    width: 40%;
 }
 .article-main p {
-    width: 70%;
+    width: 60%;
 }
 .article-main img {
-    width: 200px;
+    width:  200px;
     
 }
 
