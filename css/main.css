@@ -56,11 +56,11 @@ h1 {
     font-size: 40px;
 }
 h2 {
-    font-family: oswald;
+    font-family: courgette;
     font-size: 20px;
 }
 h3 {
-    font-family: courgette;
+    font-family: oswald;
     font-size: 25px;
 }
 h4 {
@@ -69,12 +69,40 @@ h4 {
 }
 h5 {
     font-family: courgette;
+
 }
 p{
-
+    font-family: oswald;
 }
 /* Header */
-h1 {
-    font-family: courgette;
-}
 
+header {
+    color: #ffffff;
+    height: 350px;
+    background-color: black;
+    
+    
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #ffffff;
+    padding: 30px;
+    
+
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap : 10px;
+}
+header h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+header h2 {
+    text-align: center;
+    margin-top: 10px;
+}
