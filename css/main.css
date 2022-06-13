@@ -204,16 +204,18 @@ header h2 {
     text-align: center;
     margin-top: 10px;
 }
+
 .burger-menu {
     display: none;
 }
+
 .logo-header {
     display: block;
     width: 60px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-   
+
 }
 
 /* Footer */
@@ -275,6 +277,7 @@ footer nav a {
 }
 
 .back-icons {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -290,10 +293,11 @@ footer nav a {
     .burger-menu {
         display: block;
     }
+
     .navbar-header {
         display: none;
     }
-    
 
-    
+
+
 }

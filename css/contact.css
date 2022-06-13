@@ -1,8 +1,40 @@
-section {
-    width: 55%;
+main {
+    display: flex;
+    width: 85%;
     margin: auto;
 }
 
+section {
+    width: 65%;
+    margin: 30px auto;
+}
+
+
+h5 {
+    margin: 20px 0 25px 40px;
+}
+
+address p {
+    line-height: 40px;
+    margin: 0 0 20px 40px;
+}
+
+/* Pour google map ↓  */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 395px;
+    max-width: 100%;
+}
+
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 395px;
+    width: 100%;
+}
 
 /* Asaide */
 
@@ -31,7 +63,6 @@ h6 {
     margin-bottom: 20px;
     font-weight: 500;
     font-size: 18px;
-
 }
 
 aside {
