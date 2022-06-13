@@ -1,7 +1,3 @@
-font-family: 'Courgette', cursive;
-font-family: 'Oswald', sans-serif;
-
-
 /* RESET CSS */
 
 html, body, div, span, applet, object, iframe,
@@ -47,3 +43,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+/* FONTS */
+*{font-family: 'Courgette', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-family: courgette;
+    font-size: 40px;
+}
+h2 {
+    font-family: oswald;
+    font-size: 20px;
+}
+h3 {
+    font-family: courgette;
+    font-size: 25px;
+}
+h4 {
+    font-family: courgette;
+    font-size: 25px;
+}
+h5 {
+    font-family: courgette;
+}
+p{
+
+}
+/* Header */
+h1 {
+    font-family: courgette;
+}
+
