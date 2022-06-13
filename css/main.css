@@ -204,7 +204,17 @@ header h2 {
     text-align: center;
     margin-top: 10px;
 }
-
+.burger-menu {
+    display: none;
+}
+.logo-header {
+    display: block;
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+   
+}
 
 /* Footer */
 
@@ -274,4 +284,16 @@ footer nav a {
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px 0 0 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .burger-menu {
+        display: block;
+    }
+    .navbar-header {
+        display: none;
+    }
+    
+
+    
 }
