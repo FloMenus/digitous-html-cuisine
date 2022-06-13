@@ -1,0 +1,12 @@
+footer {
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.box-contact {
+    display: flex;
+    flex-direction: column;
+}
