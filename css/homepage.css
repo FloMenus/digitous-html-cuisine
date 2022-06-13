@@ -1,10 +1,11 @@
 header {
     background:
-    linear-gradient(rgba(0,0,0,0.9),
-     rgba(0,0,0,0.9)), url(../img/header.jpg);
+        linear-gradient(rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.9)), url(../img/header.jpg);
     background-position: center;
     background-size: 90;
 }
+
 .header-logo {
 
     display: block;
@@ -14,24 +15,56 @@ header {
     width: 50px;
 }
 
+/* Main */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Section articles */
+
+main section {
+    margin: 50px 10px;
+    width: 65%;
+}
 .article-main {
     display: flex;
+    margin: 40px 5px 15px 25px;
+    gap : 20px;
+}
+
+
+.article-illustration {
+    width: 20%;
+}
+
+.article-content {
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 15px;
 }
-.article-main h3 {
-    width: 40%;
-}
-.article-main p {
+
+.article-content p{
     width: 60%;
 }
-.article-main img {
-    width:  200px;
-    
+
+/* Aside */
+
+aside {
+    align-self: center;
 }
 
-
+.search {
+    display: flex;
+    flex-direction: column;
+}
+.submit {
+    
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-width: 100%;
+    border-radius: 20%;
+}
 
 footer {
     width: 100vw;
