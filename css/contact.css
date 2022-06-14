@@ -14,6 +14,10 @@ h5 {
     margin: 20px 0 25px 40px;
 }
 
+.titre-adresse {
+    margin: 10px 0 0 40px;
+}
+
 address p {
     line-height: 40px;
     margin: 0 0 20px 40px;
