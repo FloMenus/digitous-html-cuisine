@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link href="../css/main.css" rel="stylesheet">
+=======
+    <link href="/css/main.css" rel="stylesheet">
+>>>>>>> 2760c5571e6146b3866aedf006e3b0b21fdcea22
     <link rel="stylesheet" href="../css/homepage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,16 +30,16 @@
             <ul nav class="navbar-header">
                 <img class="burger-menu" src="../img/burger-menu.png">
                 <a href="../pages/index.html">
-                    <p>Accueil</p>
+                    <h3>Accueil</h3>
                 </a></li>
                 <li><a href="../pages/team.html">
-                        <p>Equipe</p>
+                        <h3>Equipe</h3>
                     </a></li>
                 <li><a href="../pages/post.html">
-                        <p>Blog</p>
+                        <h3>Blog</h3>
                     </a></li>
                 <li><a href="../pages/contact.html">
-                        <p>Contact</p>
+                        <h3>Contact</h3>
                     </a></li>
             </ul>
         </nav>
@@ -47,7 +51,7 @@
     <main>
 
         <section>
-
+            <h2>Derniers Articles</h2>
             <article class="article-main">
                 <img class="article-illustration" src="../img/articles/suzette/suzette-small.jpg" alt="Suzette">
                 <div class=article-content>
@@ -89,38 +93,26 @@
 
 
         <aside>
-            <section class="search">
-                <h5>Recherche</h5>
-                <form>
-                    <input type="text" name="Recherche" class="search" placeholder="Recherche...">
-                    <input type="submit" name="submit" class="submit" value="Ok">
-                </form>
-            </section>
-            <section class="search">
-                <h5>Newsletter</h5>
-                <form>
-                    <input type="text" name="Newletter" class="search" placeholder="Email...">
-                    <input type="submit" name="submit" class="submit" value="S'inscrire">
-                </form>
-            </section>
-            <section class="share">
-                <h5>Partager</h5>
-                <div class="icons">
-                    <a href="#">
-                        <img src="img/" alt="Facebook">
-                    </a>
-                    <a href="#">
-                        <img src="img/" alt="Instagram">
-                    </a>
-                    <a href="#">
-                        <img src="img/" alt="Youtube">
-                    </a>
-                    <a href="#">
-                        <img src="img/" alt="Twitter">
-                    </a>
+            <div class="research">
+                <h6>Recherch</h6>
+                <input type="research" name="research" id="research" placeholder="Research..." class="enter">
+                <button class="btn-enter">OK</button>
+                <h6>Newsletter</h6>
+                <input type="email" name="email" id="research" placeholder="Email..." class="enter">
+                <button class="btn-enter">S'inscrire</button>
+            </div>
+            <div class="partager">
+                <h6>Partager</h6>
+                <div class="team-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-square icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube icon"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter icon"></i></a>
+
                 </div>
-            </section>
-        </aside>
+                <aside>
+
+                </aside>
     </main>
 
     <footer>
