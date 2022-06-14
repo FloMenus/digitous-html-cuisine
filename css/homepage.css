@@ -24,7 +24,7 @@ main {
 /* Section articles */
 
 main section {
-    margin: 50px 10px;
+    margin: 50px 10px 20px 30px;
     width: 65%;
 }
 .article-main {
