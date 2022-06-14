@@ -1,6 +1,6 @@
 main {
     display: flex;
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 
@@ -15,7 +15,7 @@ h5 {
 }
 
 .titre-adresse {
-    margin: 10px 0 0 40px;
+    margin: 20px 0 0 40px;
 }
 
 address p {
@@ -85,4 +85,52 @@ aside {
 .icon {
     font-size: 20px;
     color: #000000;
+}
+
+@media screen and (max-width: 941px) {
+
+    main {
+        width: 0 auto;
+
+    }
+
+    section {
+        width: 70%;
+
+    }
+
+    aside {
+        width: 25%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+
+    aside {
+        display: none;
+    }
+
+    section {
+        width: 90%;
+    }
+
+    .mapouter {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .titre-adresse {
+        margin: 10px 0 10px 0;
+    }
+
+    address p {
+        margin: 0;
+    }
+
 }
