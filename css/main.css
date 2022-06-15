@@ -301,6 +301,14 @@ footer nav a {
 
 @media screen and (max-width: 941px) {
 
+    .burger-menu {
+        display: block;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
     footer {
         width: 100%;
         display: flex;
@@ -357,13 +365,7 @@ footer nav a {
 }
 
 @media screen and (max-width: 768px) {
-    .burger-menu {
-        display: block;
-    }
 
-    .navbar-header {
-        display: none;
-    }
 
 
     /* footer 768  */
@@ -405,7 +407,6 @@ footer nav a {
     }
 
     .footer-icons .back-icons {
-
         width: 25px;
         height: 25px;
         background-color: #ffffff;
