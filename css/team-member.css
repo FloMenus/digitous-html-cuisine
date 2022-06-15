@@ -16,7 +16,7 @@ section {
     width: 55%;
 }
 
-img {
+.antoine {
     width: 270px;
     border-radius: 50%;
     float: left;
@@ -86,7 +86,7 @@ aside {
         margin: 0 15px 0 15px;
     }
 
-    img {
+    .antoine {
         width: 150px;
         border-radius: 50%;
     }
