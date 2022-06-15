@@ -5,6 +5,7 @@ header {
     background-position: center;
     background-size: 90;
 }
+
 .container-bonus {
     margin: auto;
     display: flex;
@@ -13,7 +14,7 @@ header {
     padding-bottom: 30px;
 }
 
-img {
+.paella-last {
     width: 200px;
 }
 
@@ -29,7 +30,7 @@ article {
 
 }
 
-h4 {
+.titre-bonus {
     font-family: 'Oswald', sans-serif;
     width: 100%;
     text-align: center;
@@ -101,4 +102,15 @@ aside {
 .icon {
     font-size: 20px;
     color: #000000;
+}
+
+
+@media screen and (max-width:768px) {
+    aside {
+        display: none;
+    }
+
+    article {
+        width: 80%;
+    }
 }
