@@ -95,6 +95,10 @@ aside {
 
     }
 
+    aside {
+        display: none;
+    }
+
     section article {
         width: 50%;
     }
@@ -119,4 +123,3 @@ aside {
     }
 
 }
-
