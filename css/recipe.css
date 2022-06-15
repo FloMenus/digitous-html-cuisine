@@ -20,16 +20,16 @@ main {
 }
 
 .titres-timer {
-    width: 100%;
-    height: 15%;
+    width: 90%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 10px;
     
 }
 .titres-timer h2 {
     font-size: 30px;
-    margin:5% 2%;
 }
 .timer-prep {
     display: flex;
@@ -189,8 +189,8 @@ aside {
 
 @media screen and (max-width: 768px) {
     .titres-timer {
-        justify-content: space-around;
         margin-bottom: 5%;
+        width: 80%;
     }
     .timer-prep {
         flex-direction: column;
