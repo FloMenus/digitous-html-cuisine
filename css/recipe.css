@@ -29,6 +29,7 @@ main {
 }
 .titres-timer h2 {
     font-size: 30px;
+    margin:5% 2%;
 }
 .timer-prep {
     display: flex;
@@ -92,9 +93,7 @@ main {
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
-}
-.link-link{
-    position: relative;
+    margin-bottom: 150px;
 }
 
 .link-group {
@@ -144,6 +143,7 @@ h6 {
 aside {
 
     width: 20%;
+    margin: 2%;
 }
 
 .team-icons {
@@ -179,29 +179,27 @@ aside {
         flex-wrap: wrap;
     }
 
-    .bottom-links-section {
-        flex-direction: column;
-    }
     .ingredients {
         width: 100%;
         height: auto;
-        flex-direction: column;
         flex-direction: row;
         margin-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .ingredients {
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        flex-direction: row;
-        margin-bottom: 50px;
+    .titres-timer {
+        justify-content: space-around;
+        margin-bottom: 5%;
     }
     .timer-prep {
         flex-direction: column;
-        
+    }
+    .timer-prep p {
+        width: fit-content;
+    }
+    .bottom-links-section {
+        flex-direction: column;
     }
 
 }
